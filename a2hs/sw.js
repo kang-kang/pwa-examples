@@ -1,5 +1,5 @@
 // 更新版本 1
-const version = 2;
+const version = 3;
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
